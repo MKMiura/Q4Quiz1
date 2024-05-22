@@ -1,0 +1,138 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+       <meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+<title>Q4 Quiz 1</title>
+	<style>
+body{
+       background-color:#90ACD6;
+	font-family:Comic Sans MS;
+		}
+#img1{
+	padding: 5px;
+	width: 450px;
+}
+button{
+	font-family:Comic Sans MS;
+	padding:18px;
+	border-radius: 10px;
+	width:42%;
+	border:solid 5px #35654d;
+	background-color:#35654d;
+	transition-duration: 0.4s;
+	color:white;
+}
+button:hover{
+	border:solid 5px #35654d;
+	background-color:#c2d1ca;
+	color:black;
+}
+
+
+#email{
+	font-size:18px;
+}
+#password{
+	font-size:18px;
+}
+#pfp{
+	width:200px;
+	height:200px;
+}
+#div1{
+	background-color:#8dc7d9;
+	padding:10px;
+}
+#div2{
+	padding:20px;
+}
+#login-container{
+	padding-top:30px;
+}
+#login{
+	font-family: Comic Sans MS;
+	border-radius: 10px;
+	width:125px;
+	border:solid 3px #0275d8;
+	background-color: #0275d8;
+	transition-duration: 0.2s;
+	color:white;
+	font-family: Comic Sans MS;
+	font-size:22px;
+}
+#login:hover{
+	border:solid 3px #0275d8;
+	background-color:#b4cce0;
+	color:black;
+	font-family: Comic Sans MS;
+	font-size:22px;
+
+}
+#cancel{
+	border-radius: 10px;
+	width:100px;
+	border:solid 3px #f5f5f5;
+	background-color: #f5f5f5;
+	transition-duration: 0.2s;
+	color:black;
+	font-family: Comic Sans MS;
+	font-size:22px;
+
+}
+#cancel:hover{
+	border:solid 3px #f5f5f5;
+	background-color:#a6a6a6;
+	color:black;
+	font-family: Comic Sans MS;
+	font-size:22px;
+
+}
+	</style>
+
+</head>	
+<body>
+	<center>
+
+		<div id="login-container">
+			<div>
+
+				<img id="img1" class="rounded-circle" src="Blue cat.png"><br><br>
+
+		<form action="Mainpage.html" class="form-group">
+
+			<div class="col-md-6" id="div1">
+			<label id="email"></label><br>
+			<input type="email" class="form-control bg-light" name="email" id="email">
+			</div>
+
+			<br>
+
+			<div class="col-md-6" id="div1">
+			<label id="password"></label><br>
+			<input type="password" class="form-control bg-light" name="password" id="password">
+			</div>
+
+			<div id="div2">
+			<a href="Mainpage.html"><button id="login" class="btn btn-lg btn-primary">Log In</button></a>
+			<a href="#"><button id="cancel" type="reset" class="btn btn-lg btn-light">Cancel</button></a>
+			<div>
+
+		</form>
+
+			</div>
+
+		</div>
+
+	</center>
+		<script type="text/javascript">
+			document.getElementById("email").innerHTML="Email" //label for email input box
+			document.getElementById("password").innerHTML="Password" //label for password input box
+		</script>
+
+	</script>
+</body>
+</html>
